@@ -6,9 +6,9 @@
 
 3.Two endpoints are defined:
 
-    a.Root endpoint ('/'): Creates a text file with the current timestamp as its content and filename, and sends this content back in the response.
+    1. Root endpoint ('/'): Creates a text file with the current timestamp as its content and filename, and sends this content back in the response.
 
-    b.'/getTextFiles' endpoint: Lists all .txt files in the directory and sends the list back in the response as JSON.
+    2. '/getTextFiles' endpoint: Lists all .txt files in the directory and sends the list back in the response as JSON.
 
 4.The server is started and begins listening for requests on the specified port.
 
